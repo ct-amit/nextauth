@@ -1,0 +1,23 @@
+{
+  "name": "next-auth-example",
+  "version": "2.2.0",
+  "description": "An example website that uses next-auth@beta",
+  "repository": "https://github.com/iaincollins/next-auth-example.git",
+  "homepage": "http://next-auth-example.now.sh",
+  "main": "",
+  "scripts": {
+    "dev": "next",
+    "dev:secure": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Iain Collins <me@iaincollins.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.4.4",
+    "next-auth": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sqlite3": "^4.2.0"
+  }
+}
